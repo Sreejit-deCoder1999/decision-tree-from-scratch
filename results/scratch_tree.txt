@@ -1,0 +1,43 @@
+worst radius <= 16.795
+|   worst concave points <= 0.136
+|   |   radius error <= 1.048
+|   |   |   radius error <= 0.626
+|   |   |   |   smoothness error <= 0.003
+|   |   |   |   |   class: benign  (n=4)
+|   |   |   |   smoothness error >  0.003
+|   |   |   |   |   class: benign  (n=243)
+|   |   |   radius error >  0.626
+|   |   |   |   mean texture <= 18.630
+|   |   |   |   |   class: malignant  (n=1)
+|   |   |   |   mean texture >  18.630
+|   |   |   |   |   class: benign  (n=3)
+|   |   radius error >  1.048
+|   |   |   class: malignant  (n=1)
+|   worst concave points >  0.136
+|   |   worst texture <= 25.620
+|   |   |   mean smoothness <= 0.123
+|   |   |   |   worst area <= 817.100
+|   |   |   |   |   class: benign  (n=9)
+|   |   |   |   worst area >  817.100
+|   |   |   |   |   class: malignant  (n=1)
+|   |   |   mean smoothness >  0.123
+|   |   |   |   class: malignant  (n=2)
+|   |   worst texture >  25.620
+|   |   |   worst symmetry <= 0.268
+|   |   |   |   mean radius <= 14.440
+|   |   |   |   |   class: benign  (n=2)
+|   |   |   |   mean radius >  14.440
+|   |   |   |   |   class: malignant  (n=1)
+|   |   |   worst symmetry >  0.268
+|   |   |   |   class: malignant  (n=17)
+worst radius >  16.795
+|   texture error <= 0.473
+|   |   class: benign  (n=5)
+|   texture error >  0.473
+|   |   worst concavity <= 0.191
+|   |   |   mean texture <= 21.350
+|   |   |   |   class: benign  (n=3)
+|   |   |   mean texture >  21.350
+|   |   |   |   class: malignant  (n=2)
+|   |   worst concavity >  0.191
+|   |   |   class: malignant  (n=132)
