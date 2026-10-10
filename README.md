@@ -63,3 +63,6 @@ jupyter notebook notebooks/analysis.ipynb
 - Results come from a single train/test split on a small test set; use k-fold cross-validation for tighter estimates.
 - Add cost-complexity pruning, categorical feature support, and a regression tree.
 - Repeat on Titanic to test handling of missing values.
+
+## Data
+`data/breast_cancer_wisconsin.csv` is a copy of scikit-learn's built-in Breast Cancer Wisconsin (Diagnostic) dataset: 569 rows, 30 features, `target` (0 = malignant, 1 = benign) and a readable `diagnosis` column. The code loads it via `sklearn.datasets.load_breast_cancer`, so the CSV is for reference and exploration.
